@@ -6,7 +6,10 @@ addons:
     apt:
         sources:
         - ubuntu-toolchain-r-test
-    packages:
+        packages:
         - gcc-4.9
         - g++-4.9
         - clang-3.5
+script:
+    - $CXX travistest.cpp -o result.out
+    - ./result.out
