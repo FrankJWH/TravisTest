@@ -1,7 +1,8 @@
+# this is the standard for creating a travis yml
 language: cpp
-compiler:
-    - clang
-    - gcc
+#compiler:
+#    - clang
+#    - gcc
 addons:
     apt:
         sources:
